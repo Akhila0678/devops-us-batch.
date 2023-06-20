@@ -1,0 +1,10 @@
+How to push local repo to remote repo initially 
+mkdir devops-us-batch-june-23
+cd devops-us-june-batch-23
+echo "# devops-us-batch" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/Akhila0678/devops-us-batch.git
+  git push -u origin main
